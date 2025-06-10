@@ -20,6 +20,11 @@ vim.o.breakindent = true
 
 vim.o.undofile = true
 
+vim.o.tabstop = 3
+vim.o.expandtab = true
+vim.o.softtabstop = 3
+vim.o.shiftwidth = 3
+
 vim.o.ignorecase = true
 vim.o.smartcase = true
 
