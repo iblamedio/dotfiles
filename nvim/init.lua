@@ -8,6 +8,8 @@ vim.o.background = 'dark'
 vim.o.number = true
 vim.o.relativenumber = true
 
+vim.o.clipboard = 'unnamedplus'
+
 vim.o.mouse = 'a'
 
 vim.o.showmode = false
