@@ -9,7 +9,7 @@
 
 window#waybar {
   /* Linear gradients are used because it makes less harsh rounded border radius, gtk bug :p */
-  background-image: linear-gradient(to bottom, #141216 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%);
   border-radius: 4;
   padding: 0px;
   border-style: none;
@@ -22,7 +22,7 @@ window#waybar {
 #tray,
 #workspaces,
 #pulseaudio {
-  background-image: linear-gradient(to bottom, #27232b 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 100%);
 
   margin: 6px;
   margin-right: 0px;
